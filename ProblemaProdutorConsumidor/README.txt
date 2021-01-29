@@ -1,16 +1,38 @@
 Autor: Vitor de Almeida Silva
 
-ImplementaÁ„o de algoritmo para problema produtor/consumidor. O presente programa tem 3 partes principais, s„o elas:
+
+# Portugu√™s: 
+Implementa√ß√£o de algoritmo para problema produtor/consumidor. O presente programa tem 3 partes principais, s√£o elas:
 
 - Produtor;
 - Consumidor;
 - Buffer;
 
-De inÌcio o usu·rio deve informar via teclado o numero de consumidores e produtores, como tambÈm o tamanho do buffer a ser usado. O buffer representa um armazenamento de produtor, que È reposto pelos produtores. Deste modo, o Consumidor fica a cargo de retirar retirar os produtos desse armazenamento. Os produtores v„o verificar o buffer para sempre mante-lo cheio de produtos.
+De in√≠cio o usu√°rio deve informar via teclado o numero de consumidores e produtores, como tamb√©m o tamanho do buffer a ser usado. O buffer representa um armazenamento de produtor, que √© reposto pelos produtores. Deste modo, o Consumidor fica a cargo de retirar retirar os produtos desse armazenamento. Os produtores v√£o verificar o buffer para sempre mante-lo cheio de produtos.
 
 funcionamento:
 
-1- usu·rio insere numero e produtores, consumidores e tamanho do buffer;
-2- Os produtores comeÁam a preencher o buffer, caso o buffer esteja cheio, o produtor espera atÈ ter espaÁo no buffer;
-3- Ao mesmo tempo o consumidor ir· retirar produtos do buffer em tempos aleatÛrios. sempre que um produto È retirado todos os intens s„o deslocados uma posiÁ„o e o produtor insere o novo item no fim;
-4 - o programa permanece em loop atÈ que seja parado; 
+1- usu√°rio insere numero e produtores, consumidores e tamanho do buffer;
+2- Os produtores come√ßam a preencher o buffer, caso o buffer esteja cheio, o produtor espera at√© ter espa√ßo no buffer;
+3- Ao mesmo tempo o consumidor ir√° retirar produtos do buffer em tempos aleat√≥rios. sempre que um produto √© retirado todos os intens s√£o deslocados uma posi√ß√£o e o produtor insere o novo item no fim;
+4 - o programa permanece em loop at√© que seja parado; 
+
+.
+.
+.
+
+# English:
+Implementation of algorithm for producer/consumer problem. The present program has 3 main parts, which are:
+
+- Producer;
+- Consumer;
+- Buffer;
+
+The user must initially inform the number of consumers and producers via the keyboard, as well as the size of the buffer to be used. The buffer represents a producer storage, which is replaced by the producers. In this way, the Consumer is in charge of removing the products from that storage. Producers will check the buffer to always keep it full of products.
+
+operation:
+
+1- user enters number and producers, consumers and buffer size;
+2- Producers start filling the buffer, if the buffer is full, the producer waits until there is space in the buffer;
+3- At the same time the consumer will remove products from the buffer at random times. whenever a product is removed, all intensities are moved to a position and the producer inserts the new item at the end;
+4 - the program remains in loop until it is stopped;

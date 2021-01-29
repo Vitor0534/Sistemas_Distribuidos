@@ -1,4 +1,8 @@
 Autor: Vitor de Almeida Silva
 
-implementaÁ„o de comunicaÁ„o cliente/Servidor simples. O servidor È executado primeiro e permanece a espera da conex„o do cliente. quando o cliente È executado ele se conecta ao servidor e envia uma mensagem de confirmaÁ„o de conex„o ao servidor.
+# Portugu√™s:
+implementa√ß√£o de comunica√ß√£o cliente/Servidor simples. O servidor √© executado primeiro e permanece a espera da conex√£o do cliente. quando o cliente √© executado ele se conecta ao servidor e envia uma mensagem de confirma√ß√£o de conex√£o ao servidor.
+
+# English:
+implementation of simple client/server communication. The server runs first and remains to wait for the client to connect. when the client runs it connects to the server and sends a connection confirmation message to the server.
 

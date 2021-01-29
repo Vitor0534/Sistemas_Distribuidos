@@ -15,6 +15,10 @@ funcionamento:
 3- uma vez conectados o consumidor retira produtos do buffer e o produto adiciona produtos no buffer;
 4- o programa permanece em loop;
 
+.
+.
+.
+
 # English:
 Producer consumer problem implemented by the socket.
 

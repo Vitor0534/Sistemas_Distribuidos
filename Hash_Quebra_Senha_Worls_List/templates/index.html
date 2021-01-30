@@ -1,0 +1,14 @@
+<h1 id = "titulo">Brute Force em execucao!</h1>
+<form method="post" action="{{ url_for('quebrar_senha') }}">
+    <text>
+        Clique no botão para quebrar a senha<br>
+    </text>
+    <button type="submit" name="quebrar" onclick="funcao()">
+        Clique aqui        
+    </button>
+    <script>
+        function funcao() {
+            document.getElementById("titulo").innerHTML = "Brute Force em execucao";
+        }
+    </script>   
+</form>
